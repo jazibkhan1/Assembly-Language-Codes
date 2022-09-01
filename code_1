@@ -1,6 +1,7 @@
-[org 0x0100]
+[org 0x0100]            ; starting from the 100th address of RAM
+                        ; start of code
 
-; start of code 
+
 
 mov  ax, 5              ; move the constant 5 into register ax 
 mov  bx, 10             
